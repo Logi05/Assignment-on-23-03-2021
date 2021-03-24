@@ -8,7 +8,7 @@ public static void main(String args[])
 	System.out.println("Hello Everyone");
 	A a1=new A();
 	a1.start();
-	a1.setPriority(c);
+	//a1.setPriority(c);
 	
 	ThreadExample2 t1=new ThreadExample2();
 	Thread thread=new Thread(t1);
